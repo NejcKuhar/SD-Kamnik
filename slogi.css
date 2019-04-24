@@ -1,0 +1,141 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+#GlavniOkvir {
+	margin: 0 auto;
+	align-items: center;
+}
+#ZgornjaPasica{
+	background-color: #909090; 
+	width: 900px;
+	height: 100px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: flex-end;
+	margin: 0 auto;
+}
+#Slike {
+	width: 900px;
+	height: 300px;
+
+	align-items: center;
+}
+.Vabilo {
+	width: 900px;
+	height: 300px;
+}
+#Strelišče {
+	margin: 0 auto;
+	align-items: center;
+}
+.Klub {
+	width: 900px;
+	height: 400px;
+}
+#Tabelica {
+	width: 800px;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+th {
+	text-align: left;
+}
+table, th, td {
+	border: 2px solid black
+
+}
+ th, td {
+ 	padding: 5px
+}
+
+#Informacije {
+	width: 900px;
+	height: 450px;
+	background-color: blue;
+	margin: 0 auto;
+	margin-top: -60px;
+}
+#Navigacija ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none; 
+	height: 55px;
+	margin: 40px;
+}
+#Navigacija a:link, 
+#Navigacija a:visited,
+#Navigacija a:hover,
+#Navigacija a:active{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: #202020;
+	text-decoration: none;
+	border-bottom: 0px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	transition: all .75s ease;
+}
+#issf {
+	width: 950px;
+	height: 350px;
+}
+.issf{ 
+
+ }
+ #strelskazvezaslovenije{
+
+ }
+.strelskazvezaslovenije {
+	
+}
+#sius {
+
+}
+.sius {
+
+}
+#Facebook{
+	margin-right: 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+#Facebook img {
+    width: 50px; 
+    height: auto; 
+}
+.Logo {
+	height: 90px;
+	width: auto;
+}
+#Noga {
+	background-color: #909090;
+	width: 900px;
+	height: 45px;
+	clear: both;
+	padding: 18px 0 0 20px;
+	box-sizing: border-box;
+	color: white;
+	margin: 0 auto;
+}
+h1 {
+	color: #ADD8E6;
+	text-align: center;
+	font-size: 28px;
+	margin-top: 60px;
+	margin-bottom: 15px;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+p {
+	text-align: center;
+}
